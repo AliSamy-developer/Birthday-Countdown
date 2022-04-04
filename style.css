@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/birth.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+}
+.h1{
+    padding-top: 200px;
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+}
+form{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.select{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0 0.6rem;
+}
+#day{
+    padding: 4px;
+    background-color:seashell;
+    cursor: pointer;
+}
+#month{
+    padding:  4px;
+    background-color:seashell;
+    cursor: pointer;
+}
+#year{
+    padding: 4px;
+    background-color:seashell;
+    cursor: pointer;
+}
+form button{
+    padding: 6px;
+    font-size: 1.5rem;
+    background-color:aliceblue;
+    border: 1px solid seashell;
+    border-radius: 4px;
+}
+
+.countdown-container{
+    display: flex;
+}
+.number{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
+.p{
+    cursor: pointer;
+    padding: 6px;
+    font-size: 1.5rem;
+    background-color:aliceblue;
+    border: 1px solid seashell;
+    border-radius: 4px;
+}
+.before{
+    padding:30px 0;
+    font-size: 3rem;
+    display:none;
+}

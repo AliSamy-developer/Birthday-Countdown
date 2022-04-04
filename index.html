@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Birthday Countdown</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1 class="h1">When is my birthday!</h1>
+        <form id="formVal">
+            <span class="select">
+                <label for="day">Day:</label>
+                <select name="day" id="day"></select>
+            </span>
+            <span class="select">
+                <label for="month">Month:</label>
+                <select name="month" id="month"></select>
+            </span>
+            <span class="select">
+                <label for="year">Year:</label>
+                <select name="year" id="year"></select>
+            </span>
+        <br>
+        <br>
+        <br>
+            
+        </form>
+        <p class="p" onclick="go()"> Calculate</p>
+        <h1 id="be" class="before">Your birthday is over</h1>
+        <div class="countdown-container">
+            <div class="countdown-el">
+                <p class="number" id="dayC">0</p>
+                <span>Days</span>
+            </div>
+            <div class="countdown-el">
+                <p class="number" id="hourC">0</p>
+                <span>Hours</span>
+            </div>
+            <div class="countdown-el">
+                <p class="number" id="minC">0</p>
+                <span>Minutes</span>
+            </div>
+            <div class="countdown-el">
+                <p class="number" id="secC">0</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
